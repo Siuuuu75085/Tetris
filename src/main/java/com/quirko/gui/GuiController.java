@@ -102,7 +102,7 @@ public class GuiController implements Initializable {
 
             }
         });
-        gameOverPanel.setVisible(false);
+        gameOverPanel.setVisible(true);
         pauseButton.selectedProperty().bindBidirectional(isPause);
         pauseButton.selectedProperty().addListener(new ChangeListener<Boolean>() {
             @Override
